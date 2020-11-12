@@ -16,7 +16,7 @@ class App extends Component {
                 <Main/>
                 <p>Score: {this.state.score}</p>
                 {image.map(image =>(
-                    <Images 
+                    <Images  
                     clicked={this.clicked}
                     id={image.id}
                     src={image.src} 
