@@ -9,13 +9,14 @@ class App extends Component {
         img: image
     };
     clicked=id=>{
-        let counter = 12;
+        let counter = 11;
         console.log(this.state.img);
         const newImg = this.state.img.filter(img => img.id !== id);
         this.setState({img: newImg});
         console.log(this.state.img);
         let count = this.state.img.length;
         console.log(count);
+
         if(counter === count){
             this.setState({ score: 0})
             alert("try again");
