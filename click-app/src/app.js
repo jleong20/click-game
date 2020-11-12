@@ -19,7 +19,7 @@ class App extends Component {
                     <Images 
                     clicked={this.clicked}
                     id={image.id}
-                    src={image.src}
+                    src={image.src} 
                     />
                 ))}
             </div>
