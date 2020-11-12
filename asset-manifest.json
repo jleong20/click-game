@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/click-game/static/js/main.f9316425.chunk.js",
+    "main.js.map": "/click-game/static/js/main.f9316425.chunk.js.map",
+    "runtime-main.js": "/click-game/static/js/runtime-main.5a0122b7.js",
+    "runtime-main.js.map": "/click-game/static/js/runtime-main.5a0122b7.js.map",
+    "static/js/2.5c9f39b9.chunk.js": "/click-game/static/js/2.5c9f39b9.chunk.js",
+    "static/js/2.5c9f39b9.chunk.js.map": "/click-game/static/js/2.5c9f39b9.chunk.js.map",
+    "index.html": "/click-game/index.html",
+    "static/js/2.5c9f39b9.chunk.js.LICENSE.txt": "/click-game/static/js/2.5c9f39b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a0122b7.js",
+    "static/js/2.5c9f39b9.chunk.js",
+    "static/js/main.f9316425.chunk.js"
+  ]
+}
