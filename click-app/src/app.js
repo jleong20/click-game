@@ -5,17 +5,32 @@ import Images from "./components/images";
 
 class App extends Component {
     state ={
-        score: 0
-        
+        score: 0,
+        img: image
     };
     clicked=id=>{
-
-        if(this.state.score !== 11){
+        let counter = 12;
+        console.log(this.state.img);
+        const newImg = this.state.img.filter(img => img.id !== id);
+        this.setState({img: newImg});
+        console.log(this.state.img);
+        let count = this.state.img.length;
+        console.log(count);
+        if(counter === count){
+            this.setState({ score: 0})
+            alert("try again");
+            this.setState({img: image});
+            counter = 12;
+        }
+        else if(this.state.score !== 11){
             this.setState({ score: this.state.score + 1})
+            counter--;
         }
         else{
             this.setState({ score: 0})
             alert("u win");
+            this.setState({img: image});
+            counter = 12;
         }
     }
 
